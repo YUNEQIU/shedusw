@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人工智能课程列表</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/courseintroduction.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg" alt="LOGO" /></a>
+            </div>
+
+            <div class="nav-menu">
+                <span class="nav-hover-bg"></span>
+                <a href="index.html">首页</a>
+                <a href="course.html">课程</a>
+                <a href="#">项目</a>
+                <div class="dropdown">
+                    <button class="dropbtn">工具</button>
+                    <div class="dropdown-content">
+                        <a href="#">✨ 在线工具</a>
+                        <p>——————</p>
+                        <a href="#">✨ 特色工具</a>
+                    </div>
+                </div>
+                <a href="#">数据</a>
+                <a href="#">体验</a>
+                <a href="#">读本</a>
+                <a href="#">活动</a>
+            </div>
+
+            <div class="auth-buttons">
+                <button class="register-btn">📝 注册</button>
+                <button class="login-btn">🙂 登录</button>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">首页</a>
+            <a href="#">课程</a>
+            <a href="#">项目</a>
+            <div class="mobile-submenu">
+                <span>工具</span>
+                <div class="mobile-submenu-links">
+                    <a href="#">✨ 在线工具</a>
+                    <a href="#">✨ 特色工具</a>
+                </div>
+            </div>
+            <a href="#">数据</a>
+            <a href="#">体验</a>
+            <a href="#">读本</a>
+            <a href="#">活动</a>
+            <div class="mobile-auth">
+                <button class="register-btn">注册</button>
+                <button class="login-btn">登录</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- 课程列表 -->
+
+    <div class="listbox">
+
+        <div class="list">
+
+            <!-- 左侧 -->
+            <div class="left2">
+                <a href="#"><img src="images/ai-updated.avif" alt="示例图片"></a>
+            </div>
+
+            <!-- 中间 -->
+            <div class="center">
+                <!-- 标题 -->
+                <div class="section">
+                    <h2>AI开放日之“AI职业全景图”</h2>
+                </div>
+
+                <!-- 四个横排子DIV -->
+                <div class="section row">
+                    <div>小学</div>
+                    <div>初中</div>
+                    <div>高中</div>
+                    <div>教师</div>
+                </div>
+
+                <!-- 三个横排子DIV -->
+                <div class="section row2">
+                    <div class="teacher"><img src="images/chenlaoshi.avif" alt="more">&nbsp;&nbsp;岚老师</div>
+                    <div>🕒 5课时</div>
+                    <div>👁‍🗨 8256</div>
+                </div>
+
+                <!-- 垂直居中两行文字 -->
+                <div class="section bottom-text">
+                    <div style="font-size: 20px;">8</div>
+                    <div>课程资源数</div>
+                </div>
+            </div>
+
+            <!-- 右侧 -->
+            <div class="right">
+                <!-- 上部两个横排子DIV -->
+                <div class="top">
+                    <div style="text-align: right;">💖 50</div>
+                    <div>🫰🏻 分享</div>
+                </div>
+
+                <!-- 中部底部对齐的文字 -->
+                <div class="middle">已有85位学员加入学习</div>
+
+                <!-- 下部文字 -->
+                <div class="bottom">加入学习</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container3">
+        <!-- 上部：两个横排居中DIV -->
+        <div class="top">
+            <div class="centered-row">
+                <div class="item"><a href="#kechengjieshao">课程介绍</a></div>
+                <div class="item"><a href="#kechengmulu">课程目录</a></div>
+            </div>
+        </div>
+
+        <!-- 中部：标题 + 图片链接 -->
+        <div class="expandmenu">
+            <h3 class="expandmenu-h3" id="kechengjieshao">📖 课程介绍</h3>
+            <div class="expandmenu-p">
+                <p>人工智能(AI)
+                    是一门计算机科学领域，旨在让机器具备像人类一样的思考、学习和解决问题的能力。它通过模拟人类的智能活动，让计算机能够执行各种原本需要人类才能完成的任务，例如视觉分析、语言理解、数据分析等。
+                </p>
+            </div>
+
+            <div class="introduce">
+                <img src="images/wiai.avif" alt="introduce" />
+            </div>
+
+            <h3 class="expandmenu-h3" id="kechengmulu">📖 课程目录</h3>
+
+            <!-- 可重复使用的菜单结构 -->
+            <div class="menu-group">
+                <div class="menu-header" onclick="toggleSubMenu(this)">
+                    第一章 什么是人工智能<span class="arrow">▶</span>
+                </div>
+                <div class="submenu">
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第一节 人工智能的起源</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第二节 人工智能的现在和发展趋势</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📺 课程视频.MP4</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📙 课程内容.PDF</p>
+                        </a></div>
+                </div>
+            </div>
+
+            <div class="menu-group">
+                <div class="menu-header" onclick="toggleSubMenu(this)">
+                    第二章 人工智能的种类<span class="arrow">▶</span>
+                </div>
+                <div class="submenu">
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第一节 CHATGPT</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第二节 DEEPSEEK</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第三节 GEMINI</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📺 课程视频.MP4</p>
+                        </a></div>
+                </div>
+            </div>
+
+            <div class="menu-group">
+                <div class="menu-header" onclick="toggleSubMenu(this)">
+                    第三章 什么语言大模型<span class="arrow">▶</span>
+                </div>
+                <div class="submenu">
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第一节 什么是模型</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第二节 如何部署本地化模型</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第三节 如何训练模型</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📺 课程视频.MP4</p>
+                        </a></div>
+                </div>
+            </div>
+
+            <div class="menu-group">
+                <div class="menu-header" onclick="toggleSubMenu(this)">
+                    第四章 如何利用人工智能提高生产力<span class="arrow">▶</span>
+                </div>
+                <div class="submenu">
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第一节 编程辅助</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第二节 图案生成</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第三节 视频生成</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📺 课程视频.MP4</p>
+                        </a></div>
+                </div>
+            </div>
+
+            <div class="menu-group">
+                <div class="menu-header" onclick="toggleSubMenu(this)">
+                    第四章 课程总结<span class="arrow">▶</span>
+                </div>
+                <div class="submenu">
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第一节 课程总结</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📝 第二节 课后作业</p>
+                        </a></div>
+                    <div class="submenu-item"><a href="practice.html">
+                            <p>📺 课程视频.MP4</p>
+                        </a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer-container">
+        <div class="footrelogo">
+            <img src="images/logo_2.svg" alt="more">
+        </div>
+        <div class="footer-left">
+            Copyright © 2025 上海教育软件发展有限公司 | 设计团队
+        </div>
+        <div class="footer-right">
+            <div class="footer-right-content">
+                <div style="font-weight: bold; font-size: 22px; ">联系方式</div>
+                <div>🏢 上海市杨浦区国顺路288号</div>
+                <div>☎️ 021-25653284</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

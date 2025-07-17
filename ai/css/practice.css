@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f9fafb;
+    background: url(../images/coursebanner.avif) no-repeat top/cover;
+    background-attachment: fixed;
+    position: relative;
+    object-position: top;
+}
+
+.practice {
+    width: 100%;
+    height: 950px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 120px;
+}
+
+/* 主体布局 */
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* 左列（菜单） */
+.menu-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* 菜单组 */
+.menu-group {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 菜单头部（点击区域） */
+.menu-header {
+    cursor: pointer;
+    font-weight: bold;
+    color: #5A048A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+/* 箭头旋转动画 */
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+    color: #b3b3b3;
+}
+
+.arrow.rotate {
+    transform: rotate(90deg);
+    color: #5A048A;
+}
+
+/* 子菜单动画展开 */
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.submenu.show {
+    max-height: 200px;
+}
+
+/* 子项样式 */
+.submenu-item {
+    padding: 8px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submenu-item:hover {
+    background-color: #ffffff;
+}
+
+/* 右侧播放区域 */
+.preview-column {
+    width: 100%;
+    height: 730px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-column img {
+    width: 600px;
+    height: auto;
+    opacity: 0.3;
+}
+
+.preview-column p {
+    font-size: 18px;
+    color: #383838;
+}

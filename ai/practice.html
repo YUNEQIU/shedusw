@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>课程学习</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/practice.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg" alt="LOGO" /></a>
+            </div>
+
+            <div class="nav-menu">
+                <span class="nav-hover-bg"></span>
+                <a href="index.html">首页</a>
+                <a href="course.html">课程</a>
+                <a href="#">项目</a>
+                <div class="dropdown">
+                    <button class="dropbtn">工具</button>
+                    <div class="dropdown-content">
+                        <a href="#">✨ 在线工具</a>
+                        <p>——————</p>
+                        <a href="#">✨ 特色工具</a>
+                    </div>
+                </div>
+                <a href="#">数据</a>
+                <a href="#">体验</a>
+                <a href="#">读本</a>
+                <a href="#">活动</a>
+            </div>
+
+            <div class="auth-buttons">
+                <button class="register-btn">📝 注册</button>
+                <button class="login-btn">🙂 登录</button>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">首页</a>
+            <a href="#">课程</a>
+            <a href="#">项目</a>
+            <div class="mobile-submenu">
+                <span>工具</span>
+                <div class="mobile-submenu-links">
+                    <a href="#">✨ 在线工具</a>
+                    <a href="#">✨ 特色工具</a>
+                </div>
+            </div>
+            <a href="#">数据</a>
+            <a href="#">体验</a>
+            <a href="#">读本</a>
+            <a href="#">活动</a>
+            <div class="mobile-auth">
+                <button class="register-btn">注册</button>
+                <button class="login-btn">登录</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- 课程实践 -->
+
+    <div class="practice">
+        <div class="content-wrapper">
+            <!-- 左侧菜单区域 -->
+            <div class="menu-column">
+                <h3 class="bottom-title">📖 课程目录</h3>
+
+                <div class="menu-group">
+                    <div class="menu-header" onclick="toggleSubMenu(this)">
+                        第一章 什么是人工智能 <span class="arrow">▶</span>
+                    </div>
+                    <div class="submenu">
+                        <div class="submenu-item" onclick="loadContent('video', 'sample.mp4')">📺 课程视频.mp4</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第一节 人工智能的起源.pdf</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第二节 人工智能的现在和发展趋势.pdf
+                        </div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📕 课程内容讲义.pdf</div>
+                    </div>
+                </div>
+
+                <div class="menu-group">
+                    <div class="menu-header" onclick="toggleSubMenu(this)">
+                        第二章 人工智能的种类 <span class="arrow">▶</span>
+                    </div>
+                    <div class="submenu">
+                        <div class="submenu-item" onclick="loadContent('video', 'sample.mp4')">📺 课程视频.mp4</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第一节 CHATGPT.pdf</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第二节 DEEPSEEK.pdf</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📕 课程内容讲义.pdf</div>
+                    </div>
+                </div>
+
+                <div class="menu-group">
+                    <div class="menu-header" onclick="toggleSubMenu(this)">
+                        第三章 课程总结 <span class="arrow">▶</span>
+                    </div>
+                    <div class="submenu">
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第一节 课程总结.pdf</div>
+                        <div class="submenu-item" onclick="loadContent('pdf', 'sample.pdf')">📝 第二节 课后作业.pdf</div>
+                        <div class="submenu-item" onclick="loadContent('video', 'sample.mp4')">📺 课程视频.mp4</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 右侧播放区域 -->
+            <div class="preview-column" id="preview">
+                <img src="images/logo.svg" alt="LOGO" /><br />
+                <p>请选择左侧课程目录进行浏览和播放。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footrelogo">
+            <img src="images/logo_2.svg" alt="more">
+        </div>
+        <div class="footer-left">
+            Copyright © 2025 上海教育软件发展有限公司 | 设计团队
+        </div>
+        <div class="footer-right">
+            <div class="footer-right-content">
+                <div style="font-weight: bold; font-size: 22px; ">联系方式</div>
+                <div>🏢 上海市杨浦区国顺路288号</div>
+                <div>☎️ 021-25653284</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
