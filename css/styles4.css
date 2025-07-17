@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.video {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px double #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mobile {
+  width: 100%;
+  height: auto;
+}
+
+.mobile img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile2 {
+  width: 100%;
+  height: auto;
+}
+
+.mobile2 img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile3 {
+  width: 100%;
+  height: auto;
+}
+
+.mobile3 img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile4 {
+  width: 100%;
+  height: auto;
+}
+
+.mobile4 img {
+  width: 100%;
+  height: auto;
+}
+
+.app {
+  width: 100%;
+  height: auto;
+}
+
+.app img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.top {
+  width: 100%;
+  height: 900px;
+  background: url(../images3/banner.avif) no-repeat top/cover;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: left;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  padding-top: 20px;
+  margin-left: 160px;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+button {
+  width: 6em;
+  height: 2em;
+  color: #2E8B57;
+  border-radius: 30em;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+button::before {
+  content: '';
+  width: 0;
+  height: 2em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #2E8B57 0%, #2E8B57 100%);
+  transition: .3s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover {
+  color: #ffffff;
+}
+
+button:hover::before {
+  width: 9em;
+}
+
+.earth {
+  width: 100%;
+  height: 700px;
+}
+
+/* video */
+.video {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px double #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+}
+
+.title img {
+  width: 400px;
+  height: auto;
+}
+
+.analysisbox {
+  width: 100%;
+  height: auto;
+  background: url(../images3/analysis.avif) no-repeat top/cover;
+  background-size: contain;
+  background-attachment: fixed;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.analysisbox img {
+  width: 40%;
+  height: auto;
+  padding-top: 20%;
+}
+
+.analysis {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.analysis h1 {
+  font-size: 42px;
+  color: #2E8B57;
+  margin-top: 200px;
+  padding-left: 40%;
+  margin-bottom: 50px;
+}
+
+.analysis p {
+  font-size: 18px;
+  color: #282828;
+  padding-left: 40%;
+}
+
+.fontbox {
+  width: 100%;
+  height: auto;
+  background: url(../images3/fontbanner.avif) no-repeat top/cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+.font {
+  width: 100%;
+  height: 600px;
+}
+
+.font img {
+  width: 600px;
+  height: auto;
+  padding-left: 10%;
+  padding-top: 50px;
+}
+
+.font h1 {
+  font-size: 28px;
+  color: #ffffff;
+  padding-left: 12%;
+}
+
+.font p {
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 12%;
+}
+
+.color {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.color img {
+  width: 100%;
+  height: auto;
+}
+
+.mascot {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.athena {
+  width: 40%;
+  height: auto;
+}
+
+.athena img {
+  width: 30vw;
+  height: auto;
+  padding-left: 25%;
+}
+
+.mascotword {
+  width: 40%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.mascotword h1 {
+  font-size: 4vw;
+  color: #2E8B57;
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.mascotword p {
+  font-size: 1.2vw;
+  color: #282828;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.domainbox {
+  width: 100%;
+  height: auto;
+  height: auto;
+  background: url(../images3/domain.avif) no-repeat top/cover;
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+.domain {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.domain img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-top: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.zoom-image {
+  width: 300px;
+  transition: transform 1.2s ease, opacity 0.8s ease;
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.zoom-image.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.vibox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  place-items: center;
+  margin-top: 50px;
+}
+
+.vibox h1 {
+  font-size: 28px;
+  color: #2E8B57;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.vi {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.vi img {
+  width: 25%;
+  height: auto;
+}
+
+.image {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.image.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vicolor {
+  width: 100%;
+  height: auto;
+}
+
+.vicolor img {
+  width: 100%;
+  height: auto;
+}
+
+.favicon {
+  width: 100%;
+  height: auto;
+  background: url(../images3/favicon.avif) no-repeat top/cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.favicon h1 {
+  font-size: 30px;
+  color: #2E8B57;
+  padding-top: 50px;
+}
+
+.favicon p {
+  font-size: 16px;
+  color: #282828;
+}
+
+.iconbox {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  margin-left: 35%;
+}
+
+.icon1 img {
+  width: 10px;
+  height: 10px;
+  padding-top: 50px;
+}
+
+.icon2 img {
+  width: 16px;
+  height: 16px;
+  padding-top: 30px;
+}
+
+.icon3 img {
+  width: 24px;
+  height: 24px;
+  padding-top: 30px;
+}
+
+.app {
+  width: 100%;
+  height: auto;
+  background: url(../images3/app.avif) no-repeat top/cover;
+  background-size: contain;
+  background-attachment: fixed;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.iphone {
+  width: 100%;
+  height: auto;
+}
+
+.iphone img {
+  width: 50%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.google {
+  width: 100%;
+  height: auto;
+  background-color: #2E8B57;
+}
+
+.google h1 {
+  font-size: 28px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.google p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.google img {
+  width: 700px;
+  height: auto;
+  padding-top: 50px;
+}
+
+.footer {
+  height: 120px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 16px;
+  padding-top: 50px;
+  color: #2E8B57;
+}

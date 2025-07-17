@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.shedusw {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 70%;
+  height: 300px;
+  background-color: #ffffff;
+  text-align: right;
+  place-items: center;
+}
+
+.logo img {
+  width: 126px;
+  height: 150px;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.subtitle {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.subtitle p {
+  font-size: 18px;
+  color: #333333;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  background: url(../images2/stripe.avif) no-repeat top/cover;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.menuone {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  background: url(../images2/student.avif) no-repeat top/cover;
+  background-size: 739px 632px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+}
+
+.menutwo {
+  width: 400px;
+  height: 632px;
+  padding-right: 200px;
+}
+
+.menuthree {
+  width: 550px;
+  height: 632px;
+  padding-left: 200px;
+}
+
+/* video */
+.video {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px double #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.inspiration {
+  width: 100%;
+  height: 1100px;
+  background: url(../images2/fourpointedstar.avif) no-repeat top/cover;
+}
+
+.inspiration h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.inspiration h2 {
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.inspiration p {
+  font-size: 100px;
+  color: #ffffff;
+  padding-top: 80px;
+}
+
+.inspiration img {
+  width: 60px;
+  height: 60px;
+  padding-top: 100px;
+}
+
+.sescom {
+  width: 100%;
+  height: 700px;
+  background: url(../images2/sheduswcom.avif) no-repeat top/cover;
+  background-size: 2300px 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.sescom img {
+  width: 500px;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 38%;
+}
+
+.sescom p {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 38%;
+  color: #333333;
+}
+
+.sescom h1 {
+  font-size: 50px;
+  padding-top: 150px;
+  padding-left: 885px;
+  color: #b7b7b7;
+  padding-left: 38%;
+}
+
+.color {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60%;
+}
+
+.sescom h2 {
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+.sescom h3 {
+  font-size: 18px;
+  color: #3b82f6;
+}
+
+#mascot {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url("../images2/jxw.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mascot img {
+  width: 30%;
+  height: auto;
+  margin-left: 200px;
+}
+
+.jixiangwu {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.jixiangwu h1 {
+  font-size: 30px;
+  color: #333333;
+  padding-bottom: 20px;
+}
+
+.jixiangwu p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.jixiangwu h2 {
+  font-size: 22px;
+  color: #333333;
+}
+
+.domainbox {
+  width: 100%;
+  height: auto;
+  height: auto;
+  background: url(../images2/domain.avif) no-repeat top/cover;
+  background-size: 600px auto; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+.domain {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.domain img {
+  width: 100%;
+  height: auto;
+}
+
+.app {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images2/starapp_1.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.vione {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images2/vibj.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.vione img {
+  width: 80%;
+  height: auto;
+  padding-top: 100px;
+}
+
+.vitwo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images2/vibj2.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.vitwo img {
+  width: 50%;
+  height: auto;
+  padding-top: 100px;
+}
+
+.favicon {
+  width: 100%;
+  height: auto;
+  background: url(../images2/icon.avif) no-repeat top/cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.favicon h1 {
+  font-size: 30px;
+  color: #1E3A8A;
+  padding-top: 50px;
+}
+
+.favicon p {
+  font-size: 16px;
+  color: #282828;
+}
+
+.iconbox {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  margin-left: 35%;
+}
+
+.icon1 img {
+  width: 10px;
+  height: 10px;
+  padding-top: 50px;
+}
+
+.icon2 img {
+  width: 16px;
+  height: 16px;
+  padding-top: 30px;
+}
+
+.icon3 img {
+  width: 24px;
+  height: 24px;
+  padding-top: 30px;
+}
+
+.google {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images2/googlebj.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;  
+}
+
+.google img {
+  width: 800px;
+  height: auto;
+}
+
+.footer {
+  height: 120px;
+  background: #1e3a8a;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 16px;
+  padding-top: 50px;
+  color: #ffffff;
+}
