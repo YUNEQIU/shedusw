@@ -389,9 +389,9 @@ const softwareData = [
   },
 
   {
-    name: "上海开放大学60周年网站",
-    file: "上海开放大学60周年网站.psd",
-    description: "上海开放大学60周年网站",
+    name: "上海开放大学网站",
+    file: "上海开放大学网站.psd",
+    description: "上海开放大学网站",
     page: "website14.html",
     thumbnail: "images/website/website14/website_1.avif",
   },
