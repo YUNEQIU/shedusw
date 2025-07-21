@@ -524,6 +524,248 @@ const softwareData = [
     thumbnail: "images/website/website30/website_1.avif",
   },
 
+  // 海报
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster1.html",
+    thumbnail: "images/poster/poster1/poster_1.avif",
+  },
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster2.html",
+    thumbnail: "images/poster/poster2/poster_1.avif",
+  },
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster3.html",
+    thumbnail: "images/poster/poster3/poster_1.avif",
+  },
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster4.html",
+    thumbnail: "images/poster/poster4/poster_1.avif",
+  },
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster5.html",
+    thumbnail: "images/poster/poster5/poster_1.avif",
+  },
+
+  {
+    name: "2016年第六届上海读书节海报",
+    file: "2016年第六届上海读书节海报.psd",
+    description: "2016年第六届上海读书节海报",
+    page: "poster6.html",
+    thumbnail: "images/poster/poster6/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster7.html",
+    thumbnail: "images/poster/poster7/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster8.html",
+    thumbnail: "images/poster/poster8/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster9.html",
+    thumbnail: "images/poster/poster9/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster10.html",
+    thumbnail: "images/poster/poster10/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster11.html",
+    thumbnail: "images/poster/poster11/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster12.html",
+    thumbnail: "images/poster/poster12/poster_1.avif",
+  },
+
+  {
+    name: "2015年第五届上海读书节海报",
+    file: "2015年第五届上海读书节海报.psd",
+    description: "2015年第五届上海读书节海报",
+    page: "poster13.html",
+    thumbnail: "images/poster/poster13/poster_1.avif",
+  },
+
+  {
+    name: "2014年第四届上海读书节海报",
+    file: "2014年第四届上海读书节海报.psd",
+    description: "2014年第四届上海读书节海报",
+    page: "poster14.html",
+    thumbnail: "images/poster/poster14/poster_1.avif",
+  },
+
+  {
+    name: "2014年第四届上海读书节海报",
+    file: "2014年第四届上海读书节海报.psd",
+    description: "2014年第四届上海读书节海报",
+    page: "poster15.html",
+    thumbnail: "images/poster/poster15/poster_1.avif",
+  },
+
+  {
+    name: "2024年上海数字阅读活动海报",
+    file: "2024年上海数字阅读活动海报.psd",
+    description: "2024年上海数字阅读活动海报",
+    page: "poster16.html",
+    thumbnail: "images/poster/poster16/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster17.html",
+    thumbnail: "images/poster/poster17/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster18.html",
+    thumbnail: "images/poster/poster18/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster19.html",
+    thumbnail: "images/poster/poster19/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster20.html",
+    thumbnail: "images/poster/poster20/poster_1.avif",
+  },
+
+  {
+    name: "2014年上海读书节海报",
+    file: "2014年上海读书节海报.psd",
+    description: "2014年上海读书节海报",
+    page: "poster21.html",
+    thumbnail: "images/poster/poster21/poster_1.avif",
+  },
+
+  {
+    name: "2014年上海读书节海报",
+    file: "2014年上海读书节海报.psd",
+    description: "2014年上海读书节海报",
+    page: "poster22.html",
+    thumbnail: "images/poster/poster22/poster_1.avif",
+  },
+
+  {
+    name: "2014年上海读书节海报",
+    file: "2014年上海读书节海报.psd",
+    description: "2014年上海读书节海报",
+    page: "poster23.html",
+    thumbnail: "images/poster/poster23/poster_1.avif",
+  },
+
+  {
+    name: "2014年上海读书节海报",
+    file: "2014年上海读书节海报.psd",
+    description: "2014年上海读书节海报",
+    page: "poster24.html",
+    thumbnail: "images/poster/poster24/poster_1.avif",
+  },
+
+  {
+    name: "2014年上海读书节海报",
+    file: "2014年上海读书节海报.psd",
+    description: "2014年上海读书节海报",
+    page: "poster25.html",
+    thumbnail: "images/poster/poster25/poster_1.avif",
+  },
+
+  {
+    name: "上海市监狱海报",
+    file: "上海市监狱海报.psd",
+    description: "上海市监狱海报",
+    page: "poster26.html",
+    thumbnail: "images/poster/poster26/poster_1.avif",
+  },
+
+  {
+    name: "上海市监狱海报",
+    file: "上海市监狱海报.psd",
+    description: "上海市监狱海报",
+    page: "poster27.html",
+    thumbnail: "images/poster/poster27/poster_1.avif",
+  },
+
+  {
+    name: "上海市监狱海报",
+    file: "上海市监狱海报.psd",
+    description: "上海市监狱海报",
+    page: "poster28.html",
+    thumbnail: "images/poster/poster28/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网马年大吉海报",
+    file: "上海学习网马年大吉海报.psd",
+    description: "上海学习网马年大吉海报",
+    page: "poster29.html",
+    thumbnail: "images/poster/poster29/poster_1.avif",
+  },
+
+  {
+    name: "上海市老干部大学海报",
+    file: "上海市老干部大学海报.psd",
+    description: "上海市老干部大学海报",
+    page: "poster30.html",
+    thumbnail: "images/poster/poster30/poster_1.avif",
+  },
+
 ];
 
 // 首页搜索框的处理
