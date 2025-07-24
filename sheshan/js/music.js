@@ -1,5 +1,5 @@
         document.addEventListener('click', function playMusic() {
-            const audio = new Audio('../music/music.mp3');
+            const audio = new Audio('https://shedusw.com/sheshan/music/music.mp3');
             audio.loop = true;
             audio.play().then(() => {
                 console.log('背景音乐已开始播放');
