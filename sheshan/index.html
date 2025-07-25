@@ -14,7 +14,45 @@
 
 <body>
 
-    <div class="model">
+    <div class="logo">
+        <img src="images/logo.avif" alt="logo" />
+    </div>
+
+    <div id="menu">
+        <img src="images/ljgh.svg" alt="icon" />
+        <img src="images/tlcs.svg" alt="icon" />
+        <img src="images/rwsj.svg" alt="icon" />
+    </div>
+
+    <!-- 登录注册按钮 -->
+    <div id="openBtn"><img src="images/dlzc.svg" alt="icon" /></div>
+
+    <!-- 注册面板 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>用户登录和注册 TEST</p>
+
+            <form>
+                <label for="username">用户名</label>
+                <input type="text" id="username" name="username" placeholder="请输入用户名" required>
+
+                <label for="password">密码</label>
+                <input type="password" id="password" name="password" placeholder="请输入密码" required>
+
+                <button type="submit">登录</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- 功能面板 -->
+    <div id="modal2" class="modal2">
+        <div class="modal2-content">
+            <p>功能板块 TEST</p>
+        </div>
+    </div>
+
+    <div class="model2">
         <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.35/build/spline-viewer.js"></script>
         <spline-viewer url="https://prod.spline.design/DGWmnNUxLjg7Sf8O/scene.splinecode"></spline-viewer>
     </div>
