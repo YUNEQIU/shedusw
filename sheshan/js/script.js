@@ -41,3 +41,11 @@ modal2.addEventListener("click", (e) => {
         modal2.style.display = "none";
     }
 });
+
+// loading
+setTimeout(function() {
+  const msgDiv = document.getElementById("loading");
+  if (msgDiv) {
+    msgDiv.remove(); 
+  }
+}, 30000); 
