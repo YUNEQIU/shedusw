@@ -48,4 +48,4 @@ setTimeout(function() {
   if (msgDiv) {
     msgDiv.remove(); 
   }
-}, 30000); 
+}, 60000); 
