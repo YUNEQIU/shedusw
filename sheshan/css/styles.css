@@ -52,7 +52,7 @@ body {
     transform: scale(1.5);
 }
 
-#model2 {
+.model {
     width: 100%;
     height: 100%;
     z-index: 1;
