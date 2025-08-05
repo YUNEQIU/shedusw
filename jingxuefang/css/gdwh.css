@@ -68,7 +68,7 @@ body {
 }
 
 .title img {
-  width: 100px;
+  width: 70px;
   height: auto;
 }
 
@@ -215,4 +215,5 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
+
 }
