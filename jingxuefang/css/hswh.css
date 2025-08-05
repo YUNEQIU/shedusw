@@ -179,6 +179,7 @@ body {
 .content p {
   margin-bottom: 16px;
   color: #5e2020;
+  line-height: 1.8;
 }
 
 .morebox {
@@ -215,5 +216,4 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
-
 }
