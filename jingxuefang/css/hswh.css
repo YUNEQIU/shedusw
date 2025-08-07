@@ -87,7 +87,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  background-color: #ffebc4;
+  background-color: #ffd4d4;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
   cursor: pointer;
