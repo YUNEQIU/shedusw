@@ -76,7 +76,7 @@ body {
 .title p {
   font-size: 20px;
   font-weight: bold;
-  color: #d7ffc4;
+  color: #ffffff;
 }
 
 .listbox {
@@ -230,3 +230,4 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
