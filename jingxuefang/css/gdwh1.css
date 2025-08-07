@@ -4,25 +4,31 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #d7be8b;
+html, body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  height: 100%;
+  overflow-x: hidden;
 }
 
-body {
-  display: block;
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
   background-image: url('../images/gdwhbj.avif');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
+  background-size: 100% auto; 
+  background-position: top center;
+  z-index: -1;
+  background-color: #d7be8b;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
 }
 
 .list {
@@ -220,5 +226,4 @@ body {
   font-size: 20px;
   margin-bottom: 20px;
   color: #463c29;
-
 }
