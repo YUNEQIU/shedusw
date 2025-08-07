@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -20,7 +21,7 @@ html, body {
   min-height: 100vh;
   background-image: url('../images/hswhbj.avif');
   background-repeat: no-repeat;
-  background-size: 100% auto; 
+  background-size: 100% auto;
   background-position: top center;
   z-index: -1;
   background-color: #f06f38;
@@ -163,13 +164,9 @@ html, body {
 .articleimg img {
   width: 90%;
   height: auto;
-  transition: transform 0.2s ease;
   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.3));
-}
-
-.articleimg img:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.6));
+  transform: scale(0); 
+  animation: zoomIn 2s ease-out forwards;
 }
 
 .imgtitle {
