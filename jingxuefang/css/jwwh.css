@@ -86,8 +86,8 @@ body {
   margin: 20px auto;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  background-color: #ffebc4;
+  border: 1px solid rgba(227, 238, 255, 0.8);
+  background-color: #aad4fc;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
   cursor: pointer;
@@ -129,7 +129,7 @@ body {
 }
 
 .divider {
-  border-top: 1px solid #aacfed;
+  border-top: 1px solid #8cb0ce;
   margin-bottom: 15px;
 }
 
