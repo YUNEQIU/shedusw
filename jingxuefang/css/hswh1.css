@@ -20,9 +20,9 @@ body {
   display: block;
   background-image: url('../images/hswhbj.avif');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .list {
@@ -219,4 +219,5 @@ body {
   font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
+
 }
