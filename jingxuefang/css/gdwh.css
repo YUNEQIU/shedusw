@@ -21,13 +21,14 @@ body {
 }
 
 .list {
-  max-width: 100%;
+  max-width: 90%;
   padding: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
   padding-top: 60px;
+  margin: auto;
 }
 
 .top {
@@ -264,3 +265,4 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
