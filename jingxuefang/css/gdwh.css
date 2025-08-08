@@ -217,6 +217,24 @@ body {
   justify-content: flex-end;
 }
 
+.like {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like img {
+  width: 25px;
+  height: 25px;
+}
+
+.like p {
+  font-size: 14px;
+  color: #a78d5a;
+  padding-left: 5px;
+}
+
 .more {
   display: flex;
   align-items: center;
