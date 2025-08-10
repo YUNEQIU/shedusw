@@ -99,7 +99,7 @@ body {
 }
 
 .searchbox {
-  max-width: 300px;
+  max-width: 250px;
   height: 40px;
   padding: 0 40px 0 35px;
   font-size: 14px;
@@ -152,6 +152,8 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   animation: listboxZoomIn 0.6s ease-out forwards;
+  position: relative;
+  /* 为按钮绝对定位做准备 */
 }
 
 .listbox:hover {
@@ -184,20 +186,29 @@ body {
 }
 
 .listright {
+  width: 100%;
   flex: 1;
   margin-left: 5%;
   display: flex;
-  margin-left: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 100px;
 }
 
 .listrighttitle {
   width: 100%;
-  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .listrighttitle h1 {
   font-size: 16px;
   color: #a36f3e;
+  margin-top: 10px;
 }
 
 .listrighttitle p {
@@ -205,16 +216,26 @@ body {
   color: #ad9680;
 }
 
-
 .buttonbox {
   width: 100%;
+  bottom: 0;
   display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
 }
 
-.button1,
+.button1 {
+  width: 65px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d58149;
+  cursor: pointer;
+}
+
 .button2 {
   width: 65px;
   height: 25px;
@@ -222,14 +243,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.button1 {
-  background-color: #a19056;
-}
-
-.button2 {
   background-color: #9e4d4d;
+  cursor: pointer;
 }
 
 .button1 p,
@@ -238,16 +253,22 @@ body {
   color: #ffffff;
 }
 
-.point {
-  width: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .point p {
   font-size: 12px;
   color: #5e2020;
+  margin: 0;
+}
+
+/* 移动端响应式 */
+@media screen and (max-width: 480px) {
+  .listright {
+    height: auto;
+  }
+
+  .listrighttitle {
+    padding-left: 10px;
+    /* 缩小左边距 */
+  }
 }
 
 @media (max-width: 768px) {
