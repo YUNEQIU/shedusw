@@ -624,6 +624,11 @@ input[type="submit"] {
   font-size: 16px;
 }
 
+#bottom video {
+  display: block;
+  margin: 0 auto;
+}
+
 #bottom audio {
   display: block;
   margin: 0 auto;
