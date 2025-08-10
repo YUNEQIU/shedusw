@@ -485,7 +485,7 @@ body {
 
 .studybox {
   width: 90%;
-  height: 430px;
+  height: auto;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -525,7 +525,8 @@ body {
 .subtitle {
   width: 100%;
   padding: 0 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .subtitle p {
@@ -549,17 +550,18 @@ body {
 }
 
 #top {
-  flex: 0 0 60px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  border-bottom: 1px solid #ddd;
+  gap: 20px;
 }
 
 #top>div {
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 15px;
   background: #eee;
   border-radius: 10px;
   user-select: none;
