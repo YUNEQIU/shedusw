@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: linear-gradient(to bottom, #759e75, #91b881);
+}
+
+body {
+  display: block;
+}
+
+.list {
+  max-width: 90%;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: scroll;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(155, 214, 155, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  z-index: 999;
+}
+
+.top::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, white, transparent);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.return {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+
+.return img {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
+
+.return p {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title img {
+  width: 25px;
+  height: auto;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.listbox {
+  max-width: 750px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: #d7ffc4;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+
+  transform: scale(0.3);
+  opacity: 0;
+  animation: listboxZoomIn 0.6s ease-out forwards;
+}
+
+.listbox:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+@keyframes listboxZoomIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.listtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.listtitle1 p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2a442a;
+}
+
+.listtitle2 img {
+  width: 120px;
+  height: 35px;
+}
+
+.divider {
+  border-top: 1px solid rgb(127, 173, 127);
+  margin-bottom: 15px;
+}
+
+.listbox2 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .listbox2 {
+    flex-direction: row;
+  }
+}
+
+.listimg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  .listimg {
+    width: 40%;
+    margin-bottom: 0;
+  }
+}
+
+.listimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.listimg img:hover {
+  transform: scale(1.05);
+}
+
+.listcontent {
+  width: 100%;
+  padding-left: 5px;
+}
+
+@media (min-width: 600px) {
+  .listcontent {
+    width: 60%;
+  }
+}
+
+.listcontent p {
+  font-size: 15px;
+  color: #5e2020;
+}
+
+.content {
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #2a442a;
+  line-height: 1.8;
+  text-indent: 2em;
+}
+
+.morebox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.like {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like img {
+  width: 25px;
+  height: 25px;
+}
+
+.like p {
+  font-size: 14px;
+  color: #496d49;
+  padding-left: 5px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #496d49;
+  border-radius: 8px;
+  padding: 5px 10px;
+  gap: 5px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.more:hover {
+  transform: scale(1.1);
+}
+
+.more img {
+  width: 12px;
+  height: 14px;
+}
+
+.more p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
