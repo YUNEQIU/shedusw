@@ -11,6 +11,7 @@ const bottom = document.getElementById('bottom');
 function renderKan() {
   bottom.innerHTML = `
     <h2>看一看</h2>
+    <p style="text-align: center; padding-bottom: 10px;">北京大观园简介视频</p>
     <video controls autoplay muted>
       <source src="videos/bjdgy.mp4" type="video/mp4" />
       您的浏览器不支持视频播放。
