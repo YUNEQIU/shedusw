@@ -722,7 +722,7 @@ input[type="submit"] {
 
 .container {
   width: 100%;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -731,7 +731,7 @@ input[type="submit"] {
 .cardbox {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
@@ -879,3 +879,4 @@ input[type="submit"] {
   font-size: 16px;
   color: #ffffff;
 }
+
