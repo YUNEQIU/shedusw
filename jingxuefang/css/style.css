@@ -10,10 +10,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: linear-gradient(to bottom, #ebca91, #fff7e8);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  background-image: url('../images/ebookbj.avif');
+  background-color: #fff6e5;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  z-index: -1;
 }
 
 .a {
@@ -878,5 +880,3 @@ input[type="submit"] {
   font-size: 16px;
   color: #ffffff;
 }
-
-
