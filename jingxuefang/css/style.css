@@ -713,3 +713,80 @@ input[type="submit"] {
   height: auto;
   display: block;
 }
+
+/* 电子书 */
+
+.container {
+  width: 100%;
+  grid-template-columns: repeat(3, auto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardbox {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card {
+  width: 160px;
+  height: 235px;
+  background: #f5f7fb;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  opacity: 0;
+  margin: auto;
+  transform: translateY(30px);
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.card p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.show {
+  animation: fadeUp 480ms cubic-bezier(.2, .8, .2, 1) forwards;
+}
+
+/* 响应式 */
+@media (max-width:500px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:300px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
