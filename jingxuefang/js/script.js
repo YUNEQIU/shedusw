@@ -23,7 +23,7 @@ function renderTing() {
   bottom.innerHTML = `
     <h2>听一听</h2>
     <div style="text-align:center; margin-bottom: 15px;">
-      <img src="images/hlmcd.avif" alt="music" width="300" height="300"/>
+      <img class="listen-img" src="images/hlmcd.avif" alt="music" width="300" height="300" />
     </div>
     <audio controls>
       <source src="music/bgm.mp3" type="audio/mpeg" />
