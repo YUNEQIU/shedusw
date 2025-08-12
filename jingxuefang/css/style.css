@@ -721,6 +721,10 @@ input[type="submit"] {
   display: block;
 }
 
+.quiz-container {
+  padding-left: 30px;
+}
+
 /* 电子书 */
 
 .container {
@@ -961,4 +965,3 @@ input[type="submit"] {
   color: #a36f3e;
   margin-top: 10px;
 }
-
