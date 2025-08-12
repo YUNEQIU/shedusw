@@ -48,21 +48,21 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   function renderXue() {
-    let formHtml = `<h2>学一学</h2><form id="quizForm">`;
+    let formHtml = `<h2>学一学</h2><div class="quiz-container"><form id="quizForm">`;
     quizData.forEach((q, idx) => {
       formHtml += `<div class="question">
-        <p>${q.question}</p>`;
+      <p>${q.question}</p>`;
       q.options.forEach((opt, i) => {
         const optionId = `q${idx}_opt${i}`;
         formHtml += `
-          <label for="${optionId}">
-            <input type="radio" name="q${idx}" id="${optionId}" value="${opt}" required /> ${opt}
-          </label>
-        `;
+        <label for="${optionId}">
+          <input type="radio" name="q${idx}" id="${optionId}" value="${opt}" required /> ${opt}
+        </label>
+      `;
       });
       formHtml += `</div>`;
     });
-    formHtml += `<input type="submit" value="提交" /></form>`;
+    formHtml += `<input type="submit" value="提交" /></form></div>`;
     bottom.innerHTML = formHtml;
 
     const form = document.getElementById('quizForm');
@@ -131,3 +131,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
