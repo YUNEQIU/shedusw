@@ -852,3 +852,40 @@ loadModule('footer.html', 'footer');
 
 // 监听页面加载，处理搜索结果
 window.addEventListener('load', handleSearchResults);
+
+//易拉宝
+const photos = document.querySelectorAll(".photo");
+
+function applyCoverFlow(centerIndex) {
+  const baseDistance = 0; // 基准水平偏移像素
+  const compression = 0.5; // 越往外越靠拢
+
+  photos.forEach((p, i) => {
+    const offset = i - centerIndex;
+
+    if (offset === 0) {
+      // 中心图
+      p.style.transform = `translateX(0px) scale(1.4) rotateY(0deg)`;
+      p.style.zIndex = 10;
+      p.style.filter = "brightness(1)";
+    } else {
+      // 左右图
+      const direction = offset > 0 ? -1 : 1;
+      const absOffset = Math.abs(offset);
+      const angle = Math.min(absOffset * 25, 75);
+      const translate = offset * baseDistance * Math.pow(compression, absOffset);
+
+      p.style.transform = `translateX(${translate}px) scale(0.9) rotateY(${angle * direction}deg)`;
+      p.style.zIndex = 10 - absOffset;
+      p.style.filter = "brightness(0.6)";
+    }
+  });
+}
+
+photos.forEach((photo, index) => {
+  photo.addEventListener("mouseenter", () => applyCoverFlow(index));
+  photo.addEventListener("mouseleave", () => applyCoverFlow(defaultIndex));
+});
+
+const defaultIndex = Math.floor(photos.length / 2);
+applyCoverFlow(defaultIndex);
