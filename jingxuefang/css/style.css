@@ -511,6 +511,7 @@ body {
   height: 40px;
   padding: 0 20px;
   width: 100%;
+  cursor: pointer;
 }
 
 .studycontent h1 {
@@ -926,13 +927,13 @@ input[type="submit"] {
 .row {
   display: flex;
   justify-content: space-between;
-  gap:15px;
+  gap: 15px;
   margin-bottom: 15px;
 }
 
 .plate {
   flex: 1 1 0;
-  min-width: 0; 
+  min-width: 0;
   background: #f7f7f7;
   border-radius: 8px;
   padding: 18px;
@@ -942,7 +943,7 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 160px; 
+  min-height: 160px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
