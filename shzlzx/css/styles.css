@@ -14,11 +14,13 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #000000;
 }
 
 .shzlzx {
     width: 100vw;
     height: 100vh;
-
+    background: url(../images/bj.avif) no-repeat top/cover;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
 }
