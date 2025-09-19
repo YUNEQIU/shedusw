@@ -821,7 +821,7 @@ const softwareData = [
     file: "公管学院手册.psd",
     description: "公管学院手册",
     page: "booklet7.html",
-    thumbnail: "images/booklet/booklet6/booklet7.avif",
+    thumbnail: "images/booklet/booklet7/booklet7.avif",
   },
 
   {
@@ -971,3 +971,4 @@ photos.forEach((photo, index) => {
 
 const defaultIndex = Math.floor(photos.length / 2);
 applyCoverFlow(defaultIndex);
+
