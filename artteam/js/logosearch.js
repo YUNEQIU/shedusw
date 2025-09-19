@@ -817,9 +817,9 @@ const softwareData = [
   },
 
   {
-    name: "公管学院手册",
-    file: "公管学院手册.psd",
-    description: "公管学院手册",
+    name: "人文与公管学院手册",
+    file: "人文与公管学院手册.psd",
+    description: "人文与公管学院手册",
     page: "booklet7.html",
     thumbnail: "images/booklet/booklet7/booklet7.avif",
   },
@@ -971,4 +971,5 @@ photos.forEach((photo, index) => {
 
 const defaultIndex = Math.floor(photos.length / 2);
 applyCoverFlow(defaultIndex);
+
 
