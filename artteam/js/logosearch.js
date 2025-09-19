@@ -766,6 +766,88 @@ const softwareData = [
     thumbnail: "images/poster/poster30/poster_1.avif",
   },
 
+  // 手册
+
+  {
+    name: "教软标书模板",
+    file: "教软标书模板.psd",
+    description: "教软标书模板",
+    page: "booklet1.html",
+    thumbnail: "images/booklet/booklet1/booklet1.avif",
+  },
+
+  {
+    name: "教软标书模板",
+    file: "教软标书模板.psd",
+    description: "教软标书模板",
+    page: "booklet2.html",
+    thumbnail: "images/booklet/booklet2/booklet2.avif",
+  },
+
+  {
+    name: "教软标书模板",
+    file: "教软标书模板.psd",
+    description: "教软标书模板",
+    page: "booklet3.html",
+    thumbnail: "images/booklet/booklet3/booklet3.avif",
+  },
+
+  {
+    name: "教软标书模板",
+    file: "教软标书模板.psd",
+    description: "教软标书模板",
+    page: "booklet4.html",
+    thumbnail: "images/booklet/booklet4/booklet4.avif",
+  },
+
+  {
+    name: "教软标书模板",
+    file: "教软标书模板.psd",
+    description: "教软标书模板",
+    page: "booklet5.html",
+    thumbnail: "images/booklet/booklet5/booklet5.avif",
+  },
+
+  {
+    name: "开大会议手册",
+    file: "开大会议手册.psd",
+    description: "开大会议手册",
+    page: "booklet6.html",
+    thumbnail: "images/booklet/booklet6/booklet6.avif",
+  },
+
+  {
+    name: "公管学院手册",
+    file: "公管学院手册.psd",
+    description: "公管学院手册",
+    page: "booklet7.html",
+    thumbnail: "images/booklet/booklet6/booklet7.avif",
+  },
+
+  {
+    name: "开大学员手册",
+    file: "开大学员手册.psd",
+    description: "开大学员手册",
+    page: "booklet8.html",
+    thumbnail: "images/booklet/booklet8/booklet8.avif",
+  },
+
+  {
+    name: "教软宣传手册",
+    file: "教软宣传手册.psd",
+    description: "教软宣传手册",
+    page: "booklet9.html",
+    thumbnail: "images/booklet/booklet9/booklet9.avif",
+  },
+
+  {
+    name: "教软宣传手册",
+    file: "教软宣传手册.psd",
+    description: "教软宣传手册",
+    page: "booklet10.html",
+    thumbnail: "images/booklet/booklet10/booklet10.avif",
+  },
+
 ];
 
 // 首页搜索框的处理
