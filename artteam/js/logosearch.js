@@ -848,6 +848,168 @@ const softwareData = [
     thumbnail: "images/booklet/booklet10/booklet10.avif",
   },
 
+  // 证书
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate1.html",
+    thumbnail: "images/certificate/certificate1/certificate1.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate2.html",
+    thumbnail: "images/certificate/certificate2/certificate2.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate3.html",
+    thumbnail: "images/certificate/certificate3/certificate3.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate4.html",
+    thumbnail: "images/certificate/certificate4/certificate4.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate5.html",
+    thumbnail: "images/certificate/certificate5/certificate5.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate6.html",
+    thumbnail: "images/certificate/certificate6/certificate6.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate7.html",
+    thumbnail: "images/certificate/certificate7/certificate7.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate8.html",
+    thumbnail: "images/certificate/certificate8/certificate8.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate9.html",
+    thumbnail: "images/certificate/certificate9/certificate9.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate10.html",
+    thumbnail: "images/certificate/certificate10/certificate10.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate11.html",
+    thumbnail: "images/certificate/certificate11/certificate11.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate12.html",
+    thumbnail: "images/certificate/certificate12/certificate12.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate13.html",
+    thumbnail: "images/certificate/certificate13/certificate13.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate14.html",
+    thumbnail: "images/certificate/certificate14/certificate14.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate15.html",
+    thumbnail: "images/certificate/certificate15/certificate15.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate16.html",
+    thumbnail: "images/certificate/certificate16/certificate16.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate17.html",
+    thumbnail: "images/certificate/certificate17/certificate17.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate18.html",
+    thumbnail: "images/certificate/certificate18/certificate18.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate19.html",
+    thumbnail: "images/certificate/certificate19/certificate19.avif",
+  },
+
+  {
+    name: "证书模板",
+    file: "证书模板.psd",
+    description: "证书模板",
+    page: "certificate20.html",
+    thumbnail: "images/certificate/certificate20/certificate20.avif",
+  },
+
 ];
 
 // 首页搜索框的处理
@@ -971,5 +1133,3 @@ photos.forEach((photo, index) => {
 
 const defaultIndex = Math.floor(photos.length / 2);
 applyCoverFlow(defaultIndex);
-
-
