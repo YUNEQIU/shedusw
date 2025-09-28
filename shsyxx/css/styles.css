@@ -974,6 +974,10 @@ a {
   background-color: #eeeae9;
   padding: 20px 0;
   box-sizing: border-box;
+  background-image: url('../images/shsyxxbj.avif');
+  background-position: center;
+  background-repeat: center;
+  background-attachment: fixed;
 }
 
 .schoolnews_container {
