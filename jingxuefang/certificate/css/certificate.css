@@ -25,7 +25,8 @@ body {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  padding-top: 70.7%; /* 1000:707 比例 */
+  padding-top: 70.7%;
+  /* 1000:707 比例 */
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   overflow: hidden;
