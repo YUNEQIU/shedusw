@@ -981,7 +981,7 @@ a {
 }
 
 .schoolnews_container {
-  max-width: 1200px;
+  max-width: 63%;
   width: 100%;
   display: flex;
   align-items: flex-start;
