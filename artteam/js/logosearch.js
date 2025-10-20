@@ -524,6 +524,208 @@ const softwareData = [
     thumbnail: "images/website/website30/website_1.avif",
   },
 
+  // 三折页
+
+  {
+    name: "上海教育软件发展有限公司三折页",
+    file: "上海教育软件发展有限公司三折页.psd",
+    description: "上海教育软件发展有限公司三折页",
+    page: "trifoldbrochure1.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure1/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "于漪教育教学三折页",
+    file: "于漪教育教学三折页.psd",
+    description: "于漪教育教学三折页",
+    page: "trifoldbrochure2.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure2/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "于漪教育教学三折页",
+    file: "于漪教育教学三折页.psd",
+    description: "于漪教育教学三折页",
+    page: "trifoldbrochure3.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure3/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "阅读三折页",
+    file: "阅读三折页.psd",
+    description: "阅读三折页",
+    page: "trifoldbrochure4.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure4/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "学分银行三折页",
+    file: "学分银行三折页.psd",
+    description: "学分银行三折页",
+    page: "trifoldbrochure5.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure5/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "老年数字资源三折页",
+    file: "老年数字资源三折页.psd",
+    description: "老年数字资源三折页",
+    page: "trifoldbrochure6.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure6/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "智慧助老三折页",
+    file: "智慧助老三折页.psd",
+    description: "智慧助老三折页",
+    page: "trifoldbrochure7.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure7/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "学分银行三折页",
+    file: "学分银行三折页.psd",
+    description: "学分银行三折页",
+    page: "trifoldbrochure8.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure8/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "终身学习体验云三折页",
+    file: "终身学习体验云三折页.psd",
+    description: "终身学习体验云三折页",
+    page: "trifoldbrochure9.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure9/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "上海教育资源中心三折页",
+    file: "上海教育资源中心三折页.psd",
+    description: "上海教育资源中心三折页",
+    page: "trifoldbrochure10.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure10/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "终身学习三折页",
+    file: "终身学习三折页.psd",
+    description: "终身学习三折页",
+    page: "trifoldbrochure11.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure11/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "老年人学习团队三折页",
+    file: "老年人学习团队三折页.psd",
+    description: "老年人学习团队三折页",
+    page: "trifoldbrochure12.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure12/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "上海学习网三折页",
+    file: "上海学习网三折页.psd",
+    description: "上海学习网三折页",
+    page: "trifoldbrochure13.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure13/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "2016读书节三折页",
+    file: "2016读书节三折页.psd",
+    description: "2016读书节三折页",
+    page: "trifoldbrochure14.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure14/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "沪喀市民大学堂三折页",
+    file: "沪喀市民大学堂三折页.psd",
+    description: "沪喀市民大学堂三折页",
+    page: "trifoldbrochure15.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure15/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "2015读书节三折页",
+    file: "2015读书节三折页.psd",
+    description: "2015读书节三折页",
+    page: "trifoldbrochure16.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure16/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "2024阅读三折页",
+    file: "2024阅读三折页.psd",
+    description: "2024阅读三折页",
+    page: "trifoldbrochure17.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure17/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "学习平台直播课堂三折页",
+    file: "学习平台直播课堂三折页.psd",
+    description: "学习平台直播课堂三折页",
+    page: "trifoldbrochure18.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure18/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "上海学习网三折页",
+    file: "上海学习网三折页.psd",
+    description: "上海学习网三折页",
+    page: "trifoldbrochure19.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure19/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "上海学习网三折页",
+    file: "上海学习网三折页.psd",
+    description: "上海学习网三折页",
+    page: "trifoldbrochure20.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure20/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "培训安排三折页",
+    file: "培训安排三折页.psd",
+    description: "培训安排三折页",
+    page: "trifoldbrochure21.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure21/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "教育城域网三折页",
+    file: "教育城域网三折页.psd",
+    description: "教育城域网三折页",
+    page: "trifoldbrochure22.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure22/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "外语学习中心三折页",
+    file: "外语学习中心三折页.psd",
+    description: "外语学习中心三折页",
+    page: "trifoldbrochure23.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure23/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "学分银行三折页",
+    file: "学分银行三折页.psd",
+    description: "学分银行三折页",
+    page: "trifoldbrochure24.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure24/trifoldbrochure_1.avif",
+  },
+
+  {
+    name: "信息化技术支持服务三折页",
+    file: "信息化技术支持服务三折页.psd",
+    description: "信息化技术支持服务三折页",
+    page: "trifoldbrochure25.html",
+    thumbnail: "images/trifoldbrochure/trifoldbrochure25/trifoldbrochure_1.avif",
+  },
+
   // 海报
 
   {
@@ -766,6 +968,90 @@ const softwareData = [
     thumbnail: "images/poster/poster30/poster_1.avif",
   },
 
+  {
+    name: "2020上海读书节海报",
+    file: "2020上海读书节海报.psd",
+    description: "2020上海读书节海报",
+    page: "poster31.html",
+    thumbnail: "images/poster/poster31/poster_1.avif",
+  },
+
+  {
+    name: "2020上海读书节海报",
+    file: "2020上海读书节海报.psd",
+    description: "2020上海读书节海报",
+    page: "poster32.html",
+    thumbnail: "images/poster/poster32/poster_1.avif",
+  },
+
+  {
+    name: "学分银行海报",
+    file: "学分银行海报.psd",
+    description: "学分银行海报",
+    page: "poster33.html",
+    thumbnail: "images/poster/poster33/poster_1.avif",
+  },
+
+  {
+    name: "学分银行海报",
+    file: "学分银行海报.psd",
+    description: "学分银行海报",
+    page: "poster34.html",
+    thumbnail: "images/poster/poster34/poster_1.avif",
+  },
+
+  {
+    name: "2024年上海读书节海报",
+    file: "2024年上海读书节海报.psd",
+    description: "2024年上海读书节海报",
+    page: "poster35.html",
+    thumbnail: "images/poster/poster35/poster_1.avif",
+  },
+
+  {
+    name: "2025年上海读书节海报",
+    file: "2025年上海读书节海报.psd",
+    description: "2025年上海读书节海报",
+    page: "poster36.html",
+    thumbnail: "images/poster/poster36/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster37.html",
+    thumbnail: "images/poster/poster37/poster_1.avif",
+  },
+
+  {
+    name: "2025年上海读书节海报",
+    file: "2025年上海读书节海报.psd",
+    description: "2025年上海读书节海报",
+    page: "poster38.html",
+    thumbnail: "images/poster/poster38/poster_1.avif",
+  },
+
+  {
+    name: "上海学习网海报",
+    file: "上海学习网海报.psd",
+    description: "上海学习网海报",
+    page: "poster39.html",
+    thumbnail: "images/poster/poster39/poster_1.avif",
+  },
+
+  {
+    name: "上海开放大学60周年海报",
+    file: "上海开放大学60周年海报.psd",
+    description: "上海开放大学60周年海报",
+    page: "poster40.html",
+    thumbnail: "images/poster/poster40/poster_1.avif",
+  },
+
+  // 移动端海报
+
+
+
   // 手册
 
   {
@@ -773,7 +1059,7 @@ const softwareData = [
     file: "教软标书模板.psd",
     description: "教软标书模板",
     page: "booklet1.html",
-    thumbnail: "images/booklet/booklet1/booklet1.avif",
+    thumbnail: "images/booklet/booklet1/booklet_1.avif",
   },
 
   {
@@ -781,7 +1067,7 @@ const softwareData = [
     file: "教软标书模板.psd",
     description: "教软标书模板",
     page: "booklet2.html",
-    thumbnail: "images/booklet/booklet2/booklet2.avif",
+    thumbnail: "images/booklet/booklet2/booklet_1.avif",
   },
 
   {
@@ -789,7 +1075,7 @@ const softwareData = [
     file: "教软标书模板.psd",
     description: "教软标书模板",
     page: "booklet3.html",
-    thumbnail: "images/booklet/booklet3/booklet3.avif",
+    thumbnail: "images/booklet/booklet3/booklet_1.avif",
   },
 
   {
@@ -797,7 +1083,7 @@ const softwareData = [
     file: "教软标书模板.psd",
     description: "教软标书模板",
     page: "booklet4.html",
-    thumbnail: "images/booklet/booklet4/booklet4.avif",
+    thumbnail: "images/booklet/booklet4/booklet_1.avif",
   },
 
   {
@@ -805,7 +1091,7 @@ const softwareData = [
     file: "教软标书模板.psd",
     description: "教软标书模板",
     page: "booklet5.html",
-    thumbnail: "images/booklet/booklet5/booklet5.avif",
+    thumbnail: "images/booklet/booklet5/booklet_1.avif",
   },
 
   {
@@ -813,7 +1099,7 @@ const softwareData = [
     file: "开大会议手册.psd",
     description: "开大会议手册",
     page: "booklet6.html",
-    thumbnail: "images/booklet/booklet6/booklet6.avif",
+    thumbnail: "images/booklet/booklet6/booklet_1.avif",
   },
 
   {
@@ -821,7 +1107,7 @@ const softwareData = [
     file: "人文与公管学院手册.psd",
     description: "人文与公管学院手册",
     page: "booklet7.html",
-    thumbnail: "images/booklet/booklet7/booklet7.avif",
+    thumbnail: "images/booklet/booklet7/booklet_1.avif",
   },
 
   {
@@ -829,7 +1115,7 @@ const softwareData = [
     file: "开大学员手册.psd",
     description: "开大学员手册",
     page: "booklet8.html",
-    thumbnail: "images/booklet/booklet8/booklet8.avif",
+    thumbnail: "images/booklet/booklet8/booklet_1.avif",
   },
 
   {
@@ -837,7 +1123,7 @@ const softwareData = [
     file: "教软宣传手册.psd",
     description: "教软宣传手册",
     page: "booklet9.html",
-    thumbnail: "images/booklet/booklet9/booklet9.avif",
+    thumbnail: "images/booklet/booklet9/booklet_1.avif",
   },
 
   {
@@ -845,7 +1131,337 @@ const softwareData = [
     file: "教软宣传手册.psd",
     description: "教软宣传手册",
     page: "booklet10.html",
-    thumbnail: "images/booklet/booklet10/booklet10.avif",
+    thumbnail: "images/booklet/booklet10/booklet_1.avif",
+  },
+
+  {
+    name: "统计汇编手册",
+    file: "统计汇编手册.psd",
+    description: "统计汇编手册",
+    page: "booklet11.html",
+    thumbnail: "images/booklet/booklet11/booklet_1.avif",
+  },
+
+  {
+    name: "上海社区教育手册",
+    file: "上海社区教育手册.psd",
+    description: "上海社区教育手册",
+    page: "booklet12.html",
+    thumbnail: "images/booklet/booklet12/booklet_1.avif",
+  },
+
+  {
+    name: "老年人智能技术应用手册",
+    file: "老年人智能技术应用手册.psd",
+    description: "老年人智能技术应用手册",
+    page: "booklet13.html",
+    thumbnail: "images/booklet/booklet13/booklet_1.avif",
+  },
+
+  {
+    name: "十年报告手册",
+    file: "十年报告手册.psd",
+    description: "十年报告手册",
+    page: "booklet14.html",
+    thumbnail: "images/booklet/booklet14/booklet_1.avif",
+  },
+
+  {
+    name: "上海社区教育手册",
+    file: "上海社区教育手册.psd",
+    description: "上海社区教育手册",
+    page: "booklet15.html",
+    thumbnail: "images/booklet/booklet15/booklet_1.avif",
+  },
+
+  {
+    name: "学员手册",
+    file: "学员手册.psd",
+    description: "学员手册",
+    page: "booklet16.html",
+    thumbnail: "images/booklet/booklet16/booklet_1.avif",
+  },
+
+  {
+    name: "上海社区教育手册",
+    file: "上海社区教育手册.psd",
+    description: "上海社区教育手册",
+    page: "booklet17.html",
+    thumbnail: "images/booklet/booklet17/booklet_1.avif",
+  },
+
+  {
+    name: "师资库使用手册",
+    file: "师资库使用手册.psd",
+    description: "师资库使用手册",
+    page: "booklet18.html",
+    thumbnail: "images/booklet/booklet18/booklet_1.avif",
+  },
+
+  {
+    name: "2014优秀摄影作品集手册",
+    file: "2014优秀摄影作品集手册.psd",
+    description: "2014优秀摄影作品集手册",
+    page: "booklet19.html",
+    thumbnail: "images/booklet/booklet19/booklet_1.avif",
+  },
+
+  {
+    name: "2017资源总目录手册",
+    file: "2017资源总目录手册.psd",
+    description: "2017资源总目录手册",
+    page: "booklet20.html",
+    thumbnail: "images/booklet/booklet20/booklet_1.avif",
+  },
+
+  {
+    name: "上海市教师教育网手册",
+    file: "上海市教师教育网手册.psd",
+    description: "上海市教师教育网手册",
+    page: "booklet21.html",
+    thumbnail: "images/booklet/booklet21/booklet_1.avif",
+  },
+
+  {
+    name: "上海教育资源库手册",
+    file: "上海教育资源库手册.psd",
+    description: "上海教育资源库手册",
+    page: "booklet22.html",
+    thumbnail: "images/booklet/booklet22/booklet_1.avif",
+  },
+
+  {
+    name: "网络安全手册",
+    file: "网络安全手册.psd",
+    description: "网络安全手册",
+    page: "booklet23.html",
+    thumbnail: "images/booklet/booklet23/booklet_1.avif",
+  },
+
+  {
+    name: "学员手册",
+    file: "学员手册.psd",
+    description: "学员手册",
+    page: "booklet24.html",
+    thumbnail: "images/booklet/booklet24/booklet_1.avif",
+  },
+
+  {
+    name: "在线学习操作说明手册",
+    file: "在线学习操作说明手册.psd",
+    description: "在线学习操作说明手册",
+    page: "booklet25.html",
+    thumbnail: "images/booklet/booklet25/booklet_1.avif",
+  },
+
+  {
+    name: "资源推荐手册",
+    file: "资源推荐手册.psd",
+    description: "资源推荐手册",
+    page: "booklet26.html",
+    thumbnail: "images/booklet/booklet26/booklet_1.avif",
+  },
+
+  // 易拉宝
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner1.html",
+    thumbnail: "images/rollup/rollup1/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner2.html",
+    thumbnail: "images/rollup/rollup2/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner3.html",
+    thumbnail: "images/rollup/rollup3/rollup_1.avif",
+  },
+
+  {
+    name: "上海学分银行易拉宝",
+    file: "上海学分银行易拉宝.psd",
+    description: "上海学分银行易拉宝",
+    page: "rollupbanner4.html",
+    thumbnail: "images/rollup/rollup4/rollup_1.avif",
+  },
+
+  {
+    name: "老年直播课堂易拉宝",
+    file: "老年直播课堂易拉宝.psd",
+    description: "老年直播课堂易拉宝",
+    page: "rollupbanner5.html",
+    thumbnail: "images/rollup/rollup5/rollup_1.avif",
+  },
+
+  {
+    name: "上海开放大学易拉宝",
+    file: "上海开放大学易拉宝.psd",
+    description: "上海开放大学易拉宝",
+    page: "rollupbanner6.html",
+    thumbnail: "images/rollup/rollup6/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner7.html",
+    thumbnail: "images/rollup/rollup7/rollup_1.avif",
+  },
+
+  {
+    name: "中德开放在线学习平台易拉宝",
+    file: "中德开放在线学习平台易拉宝.psd",
+    description: "中德开放在线学习平台易拉宝",
+    page: "rollupbanner8.html",
+    thumbnail: "images/rollup/rollup8/rollup_1.avif",
+  },
+
+  {
+    name: "网络测速服务易拉宝",
+    file: "网络测速服务易拉宝.psd",
+    description: "网络测速服务易拉宝",
+    page: "rollupbanner9.html",
+    thumbnail: "images/rollup/rollup9/rollup_1.avif",
+  },
+
+  {
+    name: "无线网络易拉宝",
+    file: "无线网络易拉宝.psd",
+    description: "无线网络易拉宝",
+    page: "rollupbanner10.html",
+    thumbnail: "images/rollup/rollup10/rollup_1.avif",
+  },
+
+  {
+    name: "一网通学易拉宝",
+    file: "一网通学易拉宝.psd",
+    description: "一网通学易拉宝",
+    page: "rollupbanner11.html",
+    thumbnail: "images/rollup/rollup11/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner12.html",
+    thumbnail: "images/rollup/rollup12/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner13.html",
+    thumbnail: "images/rollup/rollup13/rollup_1.avif",
+  },
+
+  {
+    name: "上海学习网易拉宝",
+    file: "上海学习网易拉宝.psd",
+    description: "上海学习网易拉宝",
+    page: "rollupbanner14.html",
+    thumbnail: "images/rollup/rollup14/rollup_1.avif",
+  },
+
+  {
+    name: "学分银行易拉宝",
+    file: "学分银行易拉宝.psd",
+    description: "学分银行易拉宝",
+    page: "rollupbanner15.html",
+    thumbnail: "images/rollup/rollup15/rollup_1.avif",
+  },
+
+  {
+    name: "上海开放大学易拉宝",
+    file: "上海开放大学易拉宝.psd",
+    description: "上海开放大学易拉宝",
+    page: "rollupbanner16.html",
+    thumbnail: "images/rollup/rollup16/rollup_1.avif",
+  },
+
+  {
+    name: "学分银行易拉宝",
+    file: "学分银行易拉宝.psd",
+    description: "学分银行易拉宝",
+    page: "rollupbanner17.html",
+    thumbnail: "images/rollup/rollup17/rollup_1.avif",
+  },
+
+  {
+    name: "上海教育资源中心易拉宝",
+    file: "上海教育资源中心易拉宝.psd",
+    description: "上海教育资源中心易拉宝",
+    page: "rollupbanner18.html",
+    thumbnail: "images/rollup/rollup18/rollup_1.avif",
+  },
+
+  {
+    name: "老年教育慕课平台易拉宝",
+    file: "老年教育慕课平台易拉宝.psd",
+    description: "老年教育慕课平台易拉宝",
+    page: "rollupbanner19.html",
+    thumbnail: "images/rollup/rollup19/rollup_1.avif",
+  },
+
+  {
+    name: "上海市民外语学习中心易拉宝",
+    file: "上海市民外语学习中心易拉宝.psd",
+    description: "上海市民外语学习中心易拉宝",
+    page: "rollupbanner20.html",
+    thumbnail: "images/rollup/rollup20/rollup_1.avif",
+  },
+
+  {
+    name: "银龄智汇易拉宝",
+    file: "银龄智汇易拉宝.psd",
+    description: "银龄智汇易拉宝",
+    page: "rollupbanner21.html",
+    thumbnail: "images/rollup/rollup21/rollup_1.avif",
+  },
+
+  {
+    name: "上海教育软件发展有限公司易拉宝",
+    file: "上海教育软件发展有限公司易拉宝.psd",
+    description: "上海教育软件发展有限公司易拉宝",
+    page: "rollupbanner22.html",
+    thumbnail: "images/rollup/rollup22/rollup_1.avif",
+  },
+
+  {
+    name: "ORACLE易拉宝",
+    file: "ORACLE易拉宝.psd",
+    description: "ORACLE易拉宝",
+    page: "rollupbanner23.html",
+    thumbnail: "images/rollup/rollup23/rollup_1.avif",
+  },
+
+  {
+    name: "随申学易拉宝",
+    file: "随申学易拉宝.psd",
+    description: "随申学易拉宝",
+    page: "rollupbanner24.html",
+    thumbnail: "images/rollup/rollup24/rollup_1.avif",
+  },
+
+  {
+    name: "学科工作坊易拉宝",
+    file: "学科工作坊易拉宝.psd",
+    description: "学科工作坊易拉宝",
+    page: "rollupbanner25.html",
+    thumbnail: "images/rollup/rollup25/rollup_1.avif",
   },
 
   // 证书
