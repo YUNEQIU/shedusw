@@ -2383,7 +2383,7 @@ body {
   height: 450px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .backdropbox2 img {
