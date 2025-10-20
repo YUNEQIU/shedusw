@@ -2856,7 +2856,7 @@ body {
   z-index: -1;
 }
 
-.websitehtmi1 {
+.websitehtml1 {
   width: 100%;
   height: 600px;
   margin-top: 0px;
@@ -2876,7 +2876,7 @@ body {
   align-items: center;
 }
 
-.websitehtmi2 {
+.websitehtml2 {
   width: 70%;
   height: auto;
   margin: 20px auto;
@@ -2886,7 +2886,7 @@ body {
   z-index: 999;
 }
 
-.mobileposterhtmi1 {
+.mobileposterhtml1 {
   width: 100%;
   height: 900px;
   display: flex;
