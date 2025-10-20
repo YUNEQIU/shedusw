@@ -1464,6 +1464,208 @@ const softwareData = [
     thumbnail: "images/rollup/rollup25/rollup_1.avif",
   },
 
+  // 会务
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs1.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs1/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs2.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs2/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs3.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs3/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs4.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs4/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs5.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs5/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs6.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs6/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs7.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs7/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs8.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs8/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs9.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs9/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs10.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs10/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs11.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs11/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs12.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs12/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs13.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs13/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs14.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs14/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs15.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs15/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs16.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs16/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs17.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs17/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs18.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs18/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs19.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs19/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs20.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs20/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs21.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs21/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs22.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs22/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs23.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs23/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs24.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs24/meetingaffairs_1.avif",
+  },
+
+  {
+    name: "会务设计案例",
+    file: "会务设计案例.psd",
+    description: "会务设计案例",
+    page: "meetingaffairs25.html",
+    thumbnail: "images/meetingaffairs/meetingaffairs25/meetingaffairs_1.avif",
+  },
+
   // 证书
 
   {
