@@ -2320,7 +2320,13 @@ body {
   justify-content: center;
 }
 
-/* 背景板 */
+/* 会务 */
+
+.meetingaffairs3d {
+  width: 100%;
+  height: 2000px;
+  position: absolute;
+}
 
 .resource12 {
   width: 100%;
