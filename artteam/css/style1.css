@@ -1735,7 +1735,7 @@ body {
 
 .certificate3d {
   width: 100%;
-  height: 600px;
+  height: 1200px;
   position: absolute;
 }
 
@@ -2903,6 +2903,15 @@ body {
 }
 
 .trifoldbrochurehtml {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.certificatehtml {
   width: 100%;
   height: 1100px;
   display: flex;
