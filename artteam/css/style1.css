@@ -381,12 +381,12 @@ body {
 
 .resource1 {
   width: 100%;
-  height: 1000px;
+  height: 1150px;
   margin-top: 0px;
   display: flex;
   text-align: center;
   flex-direction: column;
-  background-color: #000000;
+  background: linear-gradient(to bottom, #000000, #700070);
   z-index: -1;
 }
 
@@ -421,6 +421,12 @@ body {
 .logo3d {
   width: 100%;
   height: 1000px;
+  position: absolute;
+}
+
+.logo3d2 {
+  width: 100%;
+  height: 1500px;
   position: absolute;
 }
 
@@ -635,7 +641,7 @@ body {
 
 .resource2 {
   width: 100%;
-  height: 1200px;
+  height: 1230px;
   margin-top: 0px;
   display: flex;
   text-align: center;
@@ -1329,7 +1335,7 @@ body {
 
 .resource6 {
   width: 100%;
-  height: 1250px;
+  height: 1230px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -1735,7 +1741,7 @@ body {
 
 .resource8 {
   width: 100%;
-  height: 800px;
+  height: 900px;
   margin-top: 0px;
   display: flex;
   text-align: center;
@@ -2841,7 +2847,7 @@ body {
 
 .logohtmlbox1 {
   width: 100%;
-  height: 700px;
+  height: 1000px;
   margin-top: 0px;
   display: flex;
   text-align: center;
