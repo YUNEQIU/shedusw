@@ -16,7 +16,7 @@ body {
 
 .spline-wrapper {
   position: fixed;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -34,3 +34,4 @@ body {
   transition: transform 0.3s ease;
   border: none;
 }
+
