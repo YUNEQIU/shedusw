@@ -3,26 +3,34 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  display: flex;           
-  justify-content: center;  
-  align-items: center;      
-  overflow: hidden; 
+  overflow: hidden;
+  background-color: black;
 }
 
 body {
   background-image: url('../images/image.avif');
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center center;  
-  background-size: contain;   
-  background-color: rgb(0, 0, 0);
 }
 
-.scroll {
-  width: 700px;
-  height: auto;
-  margin-bottom: 230px;
-
+.spline-wrapper {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-
-
+.spline-viewer {
+  width: 1200px; 
+  height: 250px;
+  transform-origin: center center;
+  transform: scale(calc(min(0.7, min(100vw / 1200, 100vh / 800))));
+  transition: transform 0.3s ease;
+  border: none;
+}
